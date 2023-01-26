@@ -50,6 +50,12 @@ body {
     color: #ffff;
     font-weight: bold;
     font-size: 16px;
+    transition: transform 0.5s;
+}
+
+.button-ctr:hover {
+    transform: scale(1.01);
+    background-color: #43be30;
 }
 
 .container-password {
